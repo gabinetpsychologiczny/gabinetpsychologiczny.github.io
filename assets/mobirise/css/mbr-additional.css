@@ -1246,6 +1246,96 @@ a {
 .cid-sKq4Ak0uuC .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+.cid-tHbwh7Xo1g {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-tHbwh7Xo1g .timeline-element {
+  position: relative;
+}
+.cid-tHbwh7Xo1g .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-tHbwh7Xo1g .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tHbwh7Xo1g .mbr-section-title,
+.cid-tHbwh7Xo1g .mbr-section-subtitle,
+.cid-tHbwh7Xo1g .timeline-date {
+  text-align: center;
+}
+.cid-tHbwh7Xo1g .iconBackground {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #6592e6;
+  margin-left: -9px;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .cid-tHbwh7Xo1g .iconBackground {
+    left: 15px;
+    top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-tHbwh7Xo1g .iconBackground {
+    top: 70px;
+    left: 50%;
+  }
+}
+.cid-tHbwh7Xo1g .row:after {
+  content: "";
+  position: absolute;
+  background-color: #6592e6;
+  width: 2px;
+}
+@media (max-width: 767px) {
+  .cid-tHbwh7Xo1g .row:after {
+    height: calc(100% + 30px);
+    top: 50px;
+    left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-tHbwh7Xo1g .row:after {
+    height: calc(100% - 20px);
+    top: 90px;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tHbwh7Xo1g .timeline-date-wrapper,
+  .cid-tHbwh7Xo1g .timeline-text-wrapper,
+  .cid-tHbwh7Xo1g .image-wrapper {
+    padding: 0rem;
+    padding-left: 2rem;
+  }
+  .cid-tHbwh7Xo1g .mbr-timeline-date {
+    text-align: left !important;
+  }
+  .cid-tHbwh7Xo1g .mbr-timeline-title {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-tHbwh7Xo1g .timeline-date-wrapper,
+  .cid-tHbwh7Xo1g .timeline-text-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-tHbwh7Xo1g .timeline-date-wrapper,
+  .cid-tHbwh7Xo1g .timeline-text-wrapper,
+  .cid-tHbwh7Xo1g .image-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sKM7kEHqpp {
   padding-top: 30px;
   padding-bottom: 30px;
